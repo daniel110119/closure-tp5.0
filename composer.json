@@ -1,0 +1,25 @@
+{
+    "name": "closure/lugege",
+    "description": "基于TP5 closure",
+    "keywords": ["TP5-closure", "tree", "closure", "tp5-closure", "tp5-tree"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lugege",
+            "email": "254419506@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Closure\\": "src/"
+        },
+        "files": [
+            "src/helps.php"
+        ]
+    }
+}
